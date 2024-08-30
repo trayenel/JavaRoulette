@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-       int a = 12;
-       int b = 22;
-       System.out.println(a + b);
-       System.out.println("Hello coi!");
-    }   
+        Outcome five = new Outcome("00-0-1-2-3", 6);
+        Bin zero = new Bin(new Outcome[]{new Outcome("0", 35), five});
+        Bin zerozero = new Bin(new Outcome[]{new Outcome("00", 35), five});
+    }
 }
